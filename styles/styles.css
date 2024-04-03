@@ -1,0 +1,104 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    /* background-color: rgb(219, 218, 218); */
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #fff;
+}
+
+.navbar-logo img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    color: rgb(109, 107, 107);
+    text-decoration: none;
+}
+.navbar-search{
+    position: relative;
+}
+
+.navbar-search input[type="text"] {
+    width: 300px; /* Adjust the width as needed */
+    padding: 15px 40px 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 130px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+}
+
+.search-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 76px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.reset-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    height: fit-content;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-search button i {
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('beier-c-26iVrIcRjDU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+}
