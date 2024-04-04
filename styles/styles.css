@@ -9,8 +9,15 @@
   /* 2 */
   border-color: #e5e7eb;
   /* 2 */
+  
 }
 
+h1, h2, h3, h4, h5, h6{
+color: white;
+}
+p{
+    color: white;
+}
 
 .navbar {
     display: flex;
@@ -100,5 +107,6 @@
     background-image: url('beier-c-26iVrIcRjDU-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px; /* Adjust the height as needed */
+    min-height: 800px;
+    height:max-content; /* Adjust the height as needed */
 }
