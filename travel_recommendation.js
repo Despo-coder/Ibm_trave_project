@@ -10,7 +10,9 @@ const  search = async()=> {
             
             // Filter the data based on the search input for the keys
             const matches = Object.keys(data).filter(key => {
-                return key.toLowerCase().includes(searchInput);
+              const destinationName=key
+               
+                return destinationName.slice(0, 5) === searchInput.slice(0, 5).toLowerCase();
                 // Reassign the filtered data back to data and ultimately in the matche variable
             }).map(key=>data[key]);
             // Assign matches to the new array with filtered data
