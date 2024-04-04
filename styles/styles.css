@@ -11,6 +11,11 @@
   /* 2 */
   
 }
+body{
+    background-image: url('beier-c-26iVrIcRjDU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 h1, h2, h3, h4, h5, h6{
 color: white;
@@ -25,12 +30,13 @@ p{
     align-items: center;
     padding: 20px 40px;
     /* background-color: rgb(219, 218, 218); */
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(221, 218, 218, 0.8);
     color: #fff;
 }
 
 .navbar-logo img {
     height: 40px; /* Adjust the height as needed */
+    color: white;
 }
 
 .navbar-links {
@@ -104,9 +110,57 @@ p{
 }
 
 .hero {
-    background-image: url('beier-c-26iVrIcRjDU-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
+  
     min-height: 800px;
     height:max-content; /* Adjust the height as needed */
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+  
+  .left-column,
+  .right-column {
+    padding: 20px;
+    
+  }
+  
+  .left-column h2,
+  .right-column h2 {
+    margin-top: 0;
+  }
+  
+  .left-column button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .right-column img {
+    max-width: 100%;
+    height: auto;
+  }
+  #contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  #contactForm input,
+  #contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+  #contactForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #contactForm button:hover {
+    background-color: #0056b3;
+  }

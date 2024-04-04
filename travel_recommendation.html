@@ -19,16 +19,25 @@
             <li><a href="travel_recommendations_contact.html">Contact</a></li>
         </ul>
         <div class="navbar-search">
-            <input id=search_input  type="text" placeholder="Search">
+            <input id=search_input  type="text" placeholder="temple,country,beach as per instructions">
             <!-- <span class='search-icon'></span> -->
             <button type="submit" class='search-btn' onclick="search()"><i class="fa fa-search"></i> Search</button>
             <button type="reset" class='reset-btn'><i class="fa fa-times"></i>Reset</button>
         </div>
     </nav>
-    <div class="hero">
-        <p>Explore Your Dream Destination</p>
-        <div id="searchResults"></div>
-    </div>
+   
+    <section class="grid-container">
+        <div class="left-column hero">
+           
+            <h2>Explore Your Dream Destination</h2>
+    <p>Welcome to our adventure-filled world of travel! At Travel Recommendations, we believe that every journey is an opportunity for discovery, relaxation, and unforgettable experiences. Whether you're seeking the tranquil shores of exotic beaches, the awe-inspiring beauty of majestic mountains, or the vibrant energy of bustling cities, we're here to turn your travel dreams into reality. With our curated selection of destinations, personalized itineraries, and expert travel advice, embark on a voyage that will inspire, rejuvenate, and create memories to last a lifetime. Start your journey with us today and let the wonders of the world unfold before you</p>
+    <button><a href="travel_recommendations_about.html">Learn More</a></button>
+        </div>
+        <div class="right-column">
+            <div id="searchResults"></div>
+        </div>
+       
+    </section>
     <script src='./travel_recommendation.js'></script>
 </body>
 </html>
